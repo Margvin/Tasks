@@ -10,9 +10,10 @@
 x = int(input())
 
 #   Выдаем ответ
-n = 0
+x = int(input())
 if x > 0:
-    n = 1
+    print(1)
 elif x < 0:
-    n = -1
-print(n)
+    print(-1)
+else:
+    print(0)
